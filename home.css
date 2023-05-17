@@ -355,7 +355,7 @@
 }
 .home-text10 {
   width: 100%;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 27px;
 }
 .home-image02 {
@@ -848,6 +848,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
+.home-image02{
+  transform: scale(0.9);
+}
+
 .home-name1 {
   color: rgb(255, 255, 255);
   font-style: normal;
@@ -1006,6 +1011,7 @@
   }
   .home-first {
     flex-direction: column;
+    padding: 25px;
   }
   .home-content {
     padding-top: var(--dl-space-space-threeunits);
